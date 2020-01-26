@@ -1,0 +1,89 @@
+
+*{ 
+	margin: 0;
+	padding: 0; 
+}
+body{ 
+	background-color: #000000;
+	height:  100%;
+  	font-family: 'Work Sans', sans-serif;
+  	
+	
+ }
+.navbar{
+	background: #222222 !important;
+}
+
+.nav-link:hover{
+	color: #008ee0 !important;
+}
+
+.border-blue{
+	border: solid 3px #008ee0;
+}
+.ion-facebook, .ion-youtube{
+    height: 50px;
+    width: 50px;
+}
+.t-slide {
+    color: #008ee0 !important;
+    font-size: 25px;
+}
+.top-content{
+	padding: 20px 0;
+}
+
+
+.BlockTitle {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .05em;
+    margin: 0 20px 5px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+}
+
+
+
+
+.carousel-item {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15%;
+  right: 0;
+  height: 100%;
+  width: 70%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.carousel-item:hover .overlay {
+  background-color:black;
+    opacity: 0.9;
+}
+
+.text {
+  color: #008CBA;
+  font-weight:700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

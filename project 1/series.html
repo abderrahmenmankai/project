@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <!--[if IE]><link rel="stylesheet" href="http://cssslider.com/sliders/demo-7/engine1/ie.css"><![endif]-->
+    <!--[if lte IE 9]><script type="text/javascript" src="http://cssslider.com/sliders/demo-7/engine1/ie.js"></script><![endif]-->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/ga.js"></script>
+    <script type="text/javascript" src="http://cssslider.com/sliders/demo-7/engine1/gestures.js"></script>
+    <title>Teleflix</title>
+  </head>
+  <body>
+    <!-- Navbar Contianer -->
+      <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="res/logo1.png"  width="40" height="40" alt="Teleflix"><span class="text-logo" style="color: #2196f3;font-size: 23px;font-weight: 800; ">ELEFLIX</span></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">HOME <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="movies.html">MOVIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="series.html">SERIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button style="margin-top:  9px" class="btn btn-primary mb-2" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+    <!-- Top Carousel,Slidshow -->
+        <section id="rt-showcase-surround" align="center">
+            <div id="rt-showcase" class="slider-container rt-overlay-dark">
+                <div class="rt-container slider-container">
+                    <div class="rt-grid-12 rt-alpha rt-omega">
+                        <div class="csslider1 autoplay cs_handle" style="top:-10px;">
+                            <input name="cs_anchor1" id="cs_slide1_0" type="radio" class="cs_anchor slide">
+                            <input name="cs_anchor1" id="cs_slide1_1" type="radio" class="cs_anchor slide">
+                            <input name="cs_anchor1" id="cs_slide1_2" type="radio" class="cs_anchor slide">
+                            <input name="cs_anchor1" id="cs_slide1_3" type="radio" class="cs_anchor slide">
+                            <input name="cs_anchor1" id="cs_play1" type="radio" class="cs_anchor" checked="">
+                            <input name="cs_anchor1" id="cs_pause1_0" type="radio" class="cs_anchor pause">
+                            <input name="cs_anchor1" id="cs_pause1_1" type="radio" class="cs_anchor pause">
+                            <input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
+                            <input name="cs_anchor1" id="cs_pause1_3" type="radio" class="cs_anchor pause">
+                            <ul>
+                                <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+                                  <img src="res/l-the witcher.jpg" style="width: 100%;">
+                                </div>
+                                <li class="num0 img">
+                                  <img src="res/l-the witcher.jpg" alt="the witcher" title="the witcher">
+                                </li>
+                                <li class="num1 img">
+                                  <img src="res/l-1917.jpg" alt="1917" title="1917">
+                                </li>
+                                <li class="num2 img">
+                                <img src="res/l-avengers.jpg"  alt="The avengers " title="The avengers">
+                                </li>
+                                <li class="num3 img">
+                                  <img src="res/l-viking.jpg"  alt="Viking" title="Viking">
+                                </li>
+                            </ul>
+                            
+                            <div class="cs_description">
+                              <label class="num0">
+                                <span class="cs_title"><span class="cs_wrapper">The Witcher</span></span>
+                                <br><span class="cs_descr"><span class="cs_wrapper">WATCH NOW</span></span>
+                              </label>    
+                              <label class="num1">
+                                <span class="cs_title"><span class="cs_wrapper">1917</span></span>
+                                <br><span class="cs_descr"><span class="cs_wrapper">WATCH NOW</span></span>
+                              </label>
+                              <label class="num2">
+                                <span class="cs_title"><span class="cs_wrapper">The Avengers</span></span>
+                                <br><span class="cs_descr"><span class="cs_wrapper">WATCH NOW</span></span>
+                              </label>
+                              <label class="num3">
+                                <span class="cs_title"><span class="cs_wrapper">Viking</span></span>
+                                <br><span class="cs_descr"><span class="cs_wrapper">WATCH NOW</span></span>
+                              </label>
+                          </div>
+                            <div class="cs_play_pause">
+                              <label class="cs_play" for="cs_play1"><span><i></i></span></label>
+                              <label class="cs_pause num0" for="cs_pause1_0"><span><i></i></span></label>
+                              <label class="cs_pause num1" for="cs_pause1_1"><span><i></i></span></label>
+                              <label class="cs_pause num2" for="cs_pause1_2"><span><i></i></span></label>
+                              <label class="cs_pause num3" for="cs_pause1_3"><span><i></i></span></label>
+                              
+                            </div>
+                            <div class="cs_arrowprev">
+                              <label class="num0" for="cs_slide1_0"><span><i></i></span></label>
+                              <label class="num1" for="cs_slide1_1"><span><i></i></span></label>
+                              <label class="num2" for="cs_slide1_2"><span><i></i></span></label>
+                              <label class="num3" for="cs_slide1_3"><span><i></i></span></label>
+                            </div>
+                            <div class="cs_arrownext">
+                              <label class="num0" for="cs_slide1_0"><span><i></i></span></label>
+                              <label class="num1" for="cs_slide1_1"><span><i></i></span></label>
+                              <label class="num2" for="cs_slide1_2"><span><i></i></span></label>
+                              <label class="num3" for="cs_slide1_3"><span><i></i></span></label>
+                            </div>
+
+                            <div class="cs_bullets">
+                              <label class="num0" for="cs_slide1_0">
+                                <span class="cs_point"></span>
+                                <span class="cs_thumb"><img src="res/s-the witcher.jpg" alt="the witcher.jpg" title="The witcher"></span>
+                              </label>
+                              <label class="num1" for="cs_slide1_1">
+                                <span class="cs_point"></span>
+                                <span class="cs_thumb"><img src="res/s-1917.jpg" alt="1917" title="1917"></span>
+                              </label>
+                              <label class="num2" for="cs_slide1_2">
+                                <span class="cs_point"></span>
+                                <span class="cs_thumb"><img src="res/s-avengers.jpg" alt="the avengers" title="the avengers"></span>
+                              </label>
+                              <label class="num3" for="cs_slide1_3">
+                                <span class="cs_point"></span>
+                                <span class="cs_thumb"><img src="res/s-viking.jpg" alt="viking" title="viking"></span>
+                              </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </section> 
+
+    <!-- the witcher Slideshow -->  
+      <div id="Movies" class="top-content">
+          <div class="tray-wrapper-common"> <div class="BlockTitle"><span class="t-slide">THE WITCHER</span></div></div>
+          <div class="container-fluid">
+              <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active img-slide">
+                          <img src="res/series/the witcher.jpg" class="img-fluid mx-auto d-block" alt="the witcher" title="the witcher Ep1">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/the witcher.jpg" class="img-fluid mx-auto d-block" alt="the witcher" title="the witcher Ep2">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/the witcher.jpg" class="img-fluid mx-auto d-block" alt="the witcher" title="the witcher Ep3">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/the witcher.jpg" class="img-fluid mx-auto d-block" alt="the witcher" title="the witcher Ep4">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/the witcher.jpg" class="img-fluid mx-auto d-block" alt="the witcher" title="the witcher Ep5">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+    <!-- viking Slideshow -->  
+      <div id="Movies" class="top-content">
+          <div class="tray-wrapper-common"> <div class="BlockTitle"><span class="t-slide">VIKING</span></div></div>
+          <div class="container-fluid">
+              <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner row w-100 mx-auto" role="listbox">
+          
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active img-slide">
+                          <img src="res/series/viking.jpg" class="img-fluid mx-auto d-block" alt="viking" title="viking Ep1"> 
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/viking.jpg" class="img-fluid mx-auto d-block" alt="viking" title="viking Ep2">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/viking.jpg" class="img-fluid mx-auto d-block" alt="viking" title="viking Ep3">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/viking.jpg" class="img-fluid mx-auto d-block" alt="viking" title="viking Ep4">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/viking.jpg" class="img-fluid mx-auto d-block" alt="viking" title="viking Ep5">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+    <!-- see Slideshow -->  
+      <div id="Movies" class="top-content">
+          <div class="tray-wrapper-common"> <div class="BlockTitle"><span class="t-slide">SEE</span></div></div>
+          <div class="container-fluid">
+              <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active img-slide">
+                          <img src="res/series/see.jpg" class="img-fluid mx-auto d-block" alt="see" title="see Ep1">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/see.jpg" class="img-fluid mx-auto d-block" alt="see" title="see Ep2">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/see.jpg" class="img-fluid mx-auto d-block" alt="see" title="see Ep3">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/see.jpg" class="img-fluid mx-auto d-block" alt="see" title="see Ep4">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/see.jpg" class="img-fluid mx-auto d-block" alt="see" title="see Ep5">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+    <!-- the outsider Slideshow -->  
+      <div id="Series" class="top-content">
+          <div class="tray-wrapper-common"> <div class="BlockTitle"><span class="t-slide">THE OUTSIDER</span></div></div>
+          <div class="container-fluid">
+              <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active img-slide">
+                          <img src="res/series/the outsider.jpg" class="img-fluid mx-auto d-block" alt="the outsider" title="the outsider Ep1">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/the outsider.jpg" class="img-fluid mx-auto d-block" alt="the outsider" title="the outsider Ep2">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/the outsider.jpg" class="img-fluid mx-auto d-block" alt="the outsider" title="the outsider Ep3">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/the outsider.jpg" class="img-fluid mx-auto d-block" alt="the outsider" title="the outsider Ep4">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                          <img src="res/series/the outsider.jpg" class="img-fluid mx-auto d-block" alt="the outsider" title="the outsider Ep5">
+                          <div class="overlay">
+                            <div class="text"><a href="#" class="btn"><span><img src="res/play-btn.png"></span></a></div>
+                          </div>
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+    <!-- Footer -->
+      <div class="border-blue"></div>
+        <footer class="page-footer font-small stylish-color-dark pt-4">
+
+          <!-- Footer Links -->
+          <div class="container text-center text-md-left" >
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-4 mx-auto">
+
+                <!-- Content -->
+                <div class="font-weight-bold text-uppercase mt-3 mb-4" ><img class="logo" src="res/logo1.png"  width="40" height="40" alt="Teleflix"><span class="text-logo" style="color: #2196f3;font-size: 23px;font-weight: 800; ">ELEFLIX</span></div>
+                <p>Enjoy your time with your favorite television <br>
+                  Movies<br>
+                  Sieres<br>
+                  and More ....
+                 </p>
+
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 mx-auto">
+              </div>
+              <!-- Grid column -->
+
+
+              <!-- Grid column -->
+              <div class="col-md-2 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">MENU</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="index.html">HOME</a>
+                  </li>
+                  <li>
+                    <a href="movies.html">MOVIES</a>
+                  </li>
+                  <li>
+                    <a href="series.html">SERIES</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">CONTACT US</a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+
+
+              <!-- Grid column -->
+              <div class="col-md-2 mx-auto">
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Follow Us</h5>
+
+                <ul class="list-unstyled">
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1">
+                      <i class="fab fa-facebook-f"><img src="res/facebook.png" class="ion-facebook"> </i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                      <i class="fab fa-twitter"><img src="res/youtube.png" class="ion-youtube"> </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </div>
+          <!-- Footer Links -->
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#"> Teleflix.com</a> By <b> Mankai Abderrahmen</b> 
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+        
+        
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+  </body>
+</html>
